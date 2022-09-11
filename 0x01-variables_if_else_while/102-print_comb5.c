@@ -2,15 +2,15 @@
 /**
  *  main - entry point
  *
- *  codes for printing numbers from 0-9 with commas and space between them
- *  this program prints "0, 1, 2, 3, 4, 5, 6, 7, 8, 9"
+ *  codes for printing all possible combination of two d/t digits
+ *  in ascending order and separated by a comma followed by a space 
  *  Return: 0
  */
 int main(void)
 {
 	int digit1, digit2;
 
-	for (digit1 = 0; digit < 100; digit1++)
+	for (digit1 = 0; digit1 < 100; digit1++)
 	{
 		for (digit2 = 0; digit2 < 100; digit2++)
 		{
