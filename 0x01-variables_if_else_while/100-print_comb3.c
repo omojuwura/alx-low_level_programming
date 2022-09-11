@@ -6,7 +6,9 @@
  * in ascending order and separated by comma followed by a space 
  *
  * Return: 0 Success
- */int main(void)
+ *
+ */
+int main(void)
 {
 	int digit1, digit2;
 
