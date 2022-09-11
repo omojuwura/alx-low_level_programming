@@ -8,17 +8,25 @@
  */
 int main(void)
 {
-	int c;
+	int digit1, digit2;
 
-	for (c = 48; c <= 57; c++)
+	for (digit1 = 0; digit < 100; digit1++)
 	{
-		putchar(c);
-		if (c != 57)
+		for (digit2 = 0; digit2 < 100; digit2++)
 		{
-			putchar(',');
-			putchar(' ');
+			if (digit2 > digit1)
+			{
+				putchar((digit1 / 10) + '0');
+				putchar((digit1 % 10) + '0');
+				putchar(' ');
+				putchar((digit2 / 10) + '0');
+
+				if (digit1 != 98)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
 	}
-	putchar('\n');
-	return (0);
 }
