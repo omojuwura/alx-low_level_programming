@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- *  main - entry point
+ * main - entry point
  *
- *  codes for printing all possible combination of two d/t digits
- *  in ascending order and separated by a comma followed by a space 
- *  Return: 0
+ * codes for printing all possible combination of two d/t digits
+ * in ascending order and separated by a comma followed by a space
+ * Return: 0
  */
 int main(void)
 {
