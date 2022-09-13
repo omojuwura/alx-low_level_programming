@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * jack_bauer - this function prints every minute of the day for Jack Bauer
+ * jack_bauer - this function prints every minute of the day for Jack Bauer, starts at 00:00 to 23:59,mi * nute loop counts per minute, the hour loop counts per hour
  * Return: 0
  */
 void jack_bauer(void)
