@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * print_to_98 - Prints numbers inputed from 98, in a oredr followed by a comma and space
+ * print_to_98 - Prints numbers inputed from 98, in a order with space and comma
  * @n: start the counting from here
  */
 void print_to_98(int n)
