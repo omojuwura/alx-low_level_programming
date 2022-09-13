@@ -5,7 +5,7 @@
  * @num1: First integer added
  * @num2: Second integer added
  *
- * Return: Addition result 
+ * Return: Addition result
  */
 int add(int num1, int num2)
 {
