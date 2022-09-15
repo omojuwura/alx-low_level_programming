@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- *  * main - prints the first 98 fibonacci numbers starting with 1.
- *   *
+ * main - prints the first 98 fibonacci numbers starting with 1.
+ * 
  * Return: Always 0 (Success)
  **/
-
 int main(void)
 {
 	int i;
@@ -45,4 +44,3 @@ int main(void)
 	return (0);
 
 }
-
